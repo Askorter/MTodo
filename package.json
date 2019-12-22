@@ -1,0 +1,35 @@
+{
+  "name": "mtodo",
+  "version": "1.0.0",
+  "description": "Test fields for technologies of interest.",
+  "main": "index.js",
+  "script": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Askorter/MTodo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Askorter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Askorter/MTodo/issues"
+  },
+  "homepage": "https://github.com/Askorter/MTodo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset": "^1.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
