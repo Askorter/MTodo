@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Test fields for technologies of interest.",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "build": "webpack --mode development",
     "dev": "webpack-dev-server --open --mode development"
   },
@@ -21,15 +21,35 @@
   },
   "homepage": "https://github.com/Askorter/MTodo#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-function-bind": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/runtime": "^7.7.7",
     "babel-loader": "^8.0.6",
-    "babel-preset": "^1.1.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-cssnext": "^3.1.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "react": "^16.12.0",
+    "redux-devtools": "^3.5.0",
     "style-loader": "^1.1.1",
+    "url-loader": "^3.0.0",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "postcss-loader": "^3.0.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   }
 }
